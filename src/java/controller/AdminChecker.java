@@ -32,7 +32,7 @@ public class AdminChecker extends HttpServlet
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
-            if (username!= null && username!= "")       
+            if (username!=null && password!=null)       
            {
             AdminCertifier a1 = new AdminCertifier();
             boolean Login = a1.islogin(username, password);

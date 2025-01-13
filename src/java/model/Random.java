@@ -17,7 +17,7 @@ public class Random {
     {
         HashSet<Integer> s1 = new HashSet<Integer>();
         
-        while(s1.size()<=10)
+        while(s1.size()<=5)
         {
             s1.add((int)(Math.random()*100));
         }
